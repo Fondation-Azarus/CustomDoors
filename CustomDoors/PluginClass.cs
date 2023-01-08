@@ -10,7 +10,7 @@ namespace CustomDoors
         public static PluginClass Singleton { get; private set; }
 
         [PluginPriority(LoadPriority.Low)]
-        [PluginEntryPoint("Custom Doors", "1.0.0", "More doors = More fun ! Allows server owners to add custom doors.", "Bonjemus")]
+        [PluginEntryPoint("Custom Doors", "1.1.0", "More doors = More fun ! Allows server owners to add custom doors.", "Bonjemus")]
         void LoadPlugin()
         {
             Singleton = this;
