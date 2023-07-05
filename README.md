@@ -75,3 +75,12 @@ All ItemType :
     Jailbird
     AntiSCP20
 ```
+
+If you want to place an active SCP-244-A/B you can place it like any other object and change the ammo depending on the state you want (see beneath).
+All Scp244State :
+```
+        Idle = 0
+        Active = 1
+        Destroyed = 2
+        PickedUp = 3
+```
