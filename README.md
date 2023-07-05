@@ -2,6 +2,7 @@
 More doors = More fun ! Allows server owners to add custom doors and items to the map.
 
 To get the relative position you can use the `Position` command.
+Add `true` to the command to get the relative position at your cursor.
 
 All KeycardPermissions :
 ```
