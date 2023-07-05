@@ -1,5 +1,5 @@
 # CustomDoors
-More doors = More fun ! Allows server owners to add custom doors.
+More doors = More fun ! Allows server owners to add custom doors and items to the map.
 
 To get the relative position you can use the `Position` command.
 
