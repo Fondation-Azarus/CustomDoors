@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <TargetFramework>net4.8</TargetFramework>
+    <Authors>Bonjemus</Authors>
+    <Company>Fondation Azarus</Company>
+    <Description>More doors = More fun ! Allows server owners to add custom doors.</Description>
+    <Copyright>Bonjemus</Copyright>
+    <Title>CustomDoors</Title>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Northwood.PluginAPI" Version="13.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Packages\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>Packages\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>Packages\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="NorthwoodLib">
+      <HintPath>Packages\NorthwoodLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>Packages\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>Packages\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
